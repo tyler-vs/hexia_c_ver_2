@@ -1,0 +1,4 @@
+# .gitignore for hexia_c template
+*.rb
+.DS_Store
+docs/
