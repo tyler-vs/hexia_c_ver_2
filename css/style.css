@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+/* Base
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  max-width: 700px;
+}
+
+/* smaller buttons */
+.button,
+button,
+input,
+input[type=text],
+input[type=submit],
+input[type=reset],
+input[type=button] {
+  /* reduce button padding here */
+  height: 32px;
+  line-height: 32px;
+  padding: 0 15px;
+}
+
+/* Header Navgigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+  padding-top: 130px;
+}
+
+/* Header */
+.header {
+  border-bottom: 1px solid #808080;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background-color: #fefefe;
+}
+
+.logo {
+  padding-bottom: 8px;
+}
+
+/* Navigation */
+.nav ul {
+  margin-bottom: 0;
+}
+.nav ul li {
+  display: inline-block;
+}
+.nav ul li a {
+  padding: 12px 8px;
+  border-right: 1px inset #eee;
+}
+.nav ul li:last-child a {
+  border: 0;
+}
+
+/* Search bar */
+#top-search {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 0;
+  margin: 0;
+}
+#top-search input[type=text] {
+  width: 130px;
+}
+
+#top-search a {
+  margin-right: 8px;
+}
+
+/* search box */
+.top-search_box {
+  display: inline;
+  padding: 8px 0;
+}
+
+/* Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 40px 0;
+}
+
+.section-title {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer {
+  background-color: #eee;
+}
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Utilites
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.alert {
+  border: 1px solid #d7d7d7;
+  /*width: 100%;*/
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: inherit;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.alert-success {
+  background-color: #B3F098;
+  border-color: #56C228;
+}
+.alert-info {
+  background-color: #93AADB;
+  border-color: #3E5EA2;
+}
+.alert-warning {
+  background-color: #FFF0A2;
+  border-color: #E1C42E;
+}
+.alert-error {
+  background-color: #F89EAE;
+  border-color: #D32C49;
+}
+
+.text-success {
+  color: #56C228;
+}
+.text-info {
+  color: #3E5EA2;
+}
+.text-warning {
+  color: #E1C42E;
+}
+.text-error {
+  color: #D32C49;
+}
+
+/* text alignment */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-muted {
+  color: #777;
+}
+
+/* responsive
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Larger than mobile */
+/* Larger than phablet */
+/* Larger than tablet */
+/* Larger than desktop */
+/* Larger than Desktop HD */

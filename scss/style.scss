@@ -1,0 +1,209 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+$blueLight: #93AADB;
+$blueReg: #3E5EA2;
+$redLight: #F89EAE;
+$redReg: #D32C49;
+$greenLight: #B3F098; 
+$greenReg: #56C228;
+$yellowLight: #FFF0A2;
+$yellowReg: #E1C42E;
+
+
+/* Base
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.container {
+  max-width: 700px;
+}
+
+
+/* smaller buttons */
+.button, 
+button, 
+input, 
+input[type=text],
+input[type=submit], 
+input[type=reset], 
+input[type=button] {
+  /* reduce button padding here */
+  height: 32px;
+  line-height: 32px;
+  padding: 0 15px;
+}
+
+/* Header Navgigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+  padding-top: 130px;
+}
+
+/* Header */
+
+.header {
+  border-bottom: 1px solid #808080;
+  position: fixed;
+  top: 0; left: 0;
+  right: 0;
+  z-index: 50;
+  background-color: #fefefe;
+}
+
+.logo {
+  padding-bottom: 8px;
+}
+
+/* Navigation */
+
+.nav {
+  ul {
+    margin-bottom: 0;
+    li {
+      display: inline-block;
+      a {
+        padding: 12px 8px;
+        border-right: 1px inset #eee;
+      }
+      
+      &:last-child a {
+        border: 0;
+      }
+    }
+  }
+}
+
+/* Search bar */
+
+#top-search {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 0;
+  margin: 0;
+  
+  input[type=text] {
+    width: 130px;
+  }
+}
+
+#top-search a { margin-right: 8px;  }
+
+/* search box */
+.top-search_box {
+  display: inline;
+  padding: 8px 0;
+}
+
+/* Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.section {
+  padding: 40px 0;
+}
+
+.section-title {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer {
+  background-color: #eee;
+}
+
+
+
+
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Utilites
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.alert {
+  border: 1px solid #d7d7d7;
+  /*width: 100%;*/
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: inherit;
+  margin-bottom: 15px;
+  font-weight: 600;
+  &-success {
+    background-color: $greenLight;
+    border-color: $greenReg;
+  }
+  &-info {
+    background-color: $blueLight;
+    border-color: $blueReg;
+  }
+  &-warning {
+    background-color: $yellowLight;
+    border-color: $yellowReg;
+  }
+  &-error {
+    background-color: $redLight;
+    border-color: $redReg;
+  }
+}
+
+.text {
+  &-success {
+    color: $greenReg;
+  }
+  &-info {
+    color: $blueReg;
+  }
+  &-warning {
+    color: $yellowReg;
+  }
+  &-error {
+    color: $redReg;
+  }
+}
+
+/* text alignment */
+
+.text-center {  text-align: center; }
+.text-left {    text-align: left;   }
+.text-right {   text-align: right;  }
+
+
+.text-muted {
+  color: #777;
+}
+
+/* responsive
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
