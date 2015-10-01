@@ -21,10 +21,16 @@
 * 
  */
 
-
+// 
+// base directory for assets, like `hrefs` and `src`
+// for static files/content
+// 
+$baseURL = 'http://sulley.cah.ucf.edu';
+$baseURI = '/~ty271781/dig4530c/assignments/ia03/';
+$path = $baseURL . $baseURI;
 
 $site_title = 'Hexia Monthly';
 $site_author = 'Hexia Corporation';
-$site_description = 'Hexia Monthly, a monthly subscription service that delivers to your doorstep a robot to build each month. This service is great for any geek, nerd or tech enthusiast who enjoys building robots. Each month you will receive a different robot that has different functionalities, you can take apart your robots and use the pieces to create custom robots.';
+$site_description = 'lorem heixa is the awesomeist.';
 
 

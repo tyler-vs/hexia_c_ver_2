@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  
   <meta charset="utf-8">
 
   <title><?php 
@@ -31,16 +26,16 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="<?php echo $path; ?>css/normalize.css">
 
   <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'>
   <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="<?php echo $path; ?>css/style.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
 
 </head>
 
@@ -52,7 +47,7 @@
     <div class="container">
       <!-- logo -->
       <div class="logo">
-        <a href="http://demo.html5blank.com">
+        <a href="">
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/307033/hexia-logo.png" alt="Logo" class="logo-img">
         </a>
       </div>
@@ -62,13 +57,13 @@
       <nav class="nav" role="navigation">
         <div class="menu">
           <ul>
-            <li class="page_item"><a href="">Home</a></li>
-            <li class="page_item"><a href="">Catalog</a></li>
-            <li class="page_item"><a href="">Featured</a></li>
-            <li class="page_item"><a href="">Shopping Cart</a></li>
-            <li class="page_item"><a href="">Fullfillment</a></li>
-            <li class="page_item"><a href="">User Profile</a></li>
-            <li class="page_item"><a href="">Search</a></li>
+            <li class="page_item"><a href="<?php echo $path; ?>home.php">Home</a></li>
+            <li class="page_item"><a href="<?php echo $path; ?>catalog.php">Catalog</a></li>
+            <li class="page_item"><a href="<?php echo $path; ?>featured.php">Featured</a></li>
+            <li class="page_item"><a href="<?php echo $path; ?>shopping_cart.php">Shopping Cart</a></li>
+            <li class="page_item"><a href="<?php echo $path; ?>fullfillment.php">Fullfillment</a></li>
+            <li class="page_item"><a href="<?php echo $path; ?>user_profile.php">User Profile</a></li>
+            <li class="page_item"><a href="<?php echo $path; ?>search.php">Search</a></li>
           </ul>
         </div>
       </nav>

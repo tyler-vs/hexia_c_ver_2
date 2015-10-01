@@ -22,7 +22,7 @@
 /* 
 * includes, global variables and functionalities
 * –––––––––––––––––––––––––––––––––––––––––––––––––– */
-include 'inc/config_variables.inc.php';
+include 'inc/config.inc.php';
 
 
 /* 
@@ -44,7 +44,7 @@ include 'inc/header.inc.php';
   <section class="section">
     <div class="container">
       <div class="row">
-        <h2 class="section-title">Section title</h2>
+        <h2 class="section-title"><?php echo $site_title; ?></h2>
       </div>
       <div class="row">
         <div class="twelve columns">
