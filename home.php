@@ -1,17 +1,41 @@
 <?php  
 
-/*
+/** 
+* 
 * home.php
+* ––––––––––––––––––––––––––––––––––––––––––––––––––
+*
+* 
 *
 * avoided using index.php because requirements need it the 
 * doc to be called home.php to be graded!
 *
 *
 *
-* 
- */
+**/
 
+
+
+
+
+
+/* 
+* includes, global variables and functionalities
+* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+include 'inc/config_variables.inc.php';
+
+
+/* 
+* local variables
+* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+$page_title = 'Homepage';
+
+/* 
+* !! html content prints after this line !!
+* –––––––––––––––––––––––––––––––––––––––––––––––––– */
 include 'inc/header.inc.php';
+
+
 ?>
 
   <!-- Primary Page Layout
@@ -37,9 +61,8 @@ include 'inc/header.inc.php';
 
 
 <?php
-/*
-* grab footer
-* 
- */
 
+/* 
+* php footer
+* –––––––––––––––––––––––––––––––––––––––––––––––––– */
 include 'inc/footer.inc.php';

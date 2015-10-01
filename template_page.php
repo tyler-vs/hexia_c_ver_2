@@ -1,17 +1,44 @@
 <?php  
 
-/*
-*   TEMPLATE_PAGE.php
-*
-*
+/** 
+* 
+* home.php
+* ––––––––––––––––––––––––––––––––––––––––––––––––––
 *
 * 
- */
+*
+* avoided using index.php because requirements need it the 
+* doc to be called home.php to be graded!
+*
+*
+*
+**/
 
+
+
+
+
+
+/* 
+* includes, global variables and functionalities
+* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+include 'inc/config_variables.inc.php';
+
+
+/* 
+* local variables
+* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+$page_title = 'Template Page - Start Here!';
+
+/* 
+* !! html content prints after this line !!
+* –––––––––––––––––––––––––––––––––––––––––––––––––– */
 include 'inc/header.inc.php';
+
+
 ?>
 
-  <!-- TEMPLATE Primary Page Layout
+  <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   
   <section class="section">
@@ -22,6 +49,7 @@ include 'inc/header.inc.php';
       <div class="row">
         <div class="twelve columns">
           <p>
+            <strong>Welcome To Hexia!</strong><br>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam voluptas unde cum sunt esse minus sequi quidem earum, quo nulla autem nobis! Quisquam odio, hic, dolore possimus adipisci dolorum illum.</span>
             <span>Praesentium optio facere, quasi excepturi commodi assumenda rerum earum explicabo accusantium eum laborum! Ut numquam, enim doloremque libero vero illo voluptatibus odit laudantium error, autem facilis sint. Earum, iste, dicta?</span>
             <span>Saepe praesentium velit ipsa aliquid ducimus harum consectetur esse nihil, recusandae doloremque dolorum rem aliquam voluptate obcaecati, quam laboriosam quibusdam quia laborum. Quasi voluptatum harum eius alias distinctio aliquid animi.</span>
@@ -33,9 +61,8 @@ include 'inc/header.inc.php';
 
 
 <?php
-/*
-* grab footer
-* 
- */
 
+/* 
+* php footer
+* –––––––––––––––––––––––––––––––––––––––––––––––––– */
 include 'inc/footer.inc.php';

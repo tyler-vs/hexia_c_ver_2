@@ -8,11 +8,18 @@
   
   <meta charset="utf-8">
 
-  <title>Hexia_C</title>
+  <title><?php 
+        // if site_title is not defined
+        // use a demo title
+        if( !isset($site_title) ) { 
+          echo "Hexia_C";
+        }  
+          echo "$site_title &ndash; $page_title"; 
+        ?> ?></title>
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="<?php echo $site_description; ?>">
+  <meta name="author" content="<?php echo $site_author; ?>">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
